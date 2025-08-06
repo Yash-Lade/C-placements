@@ -14,11 +14,11 @@ class myClass{
 };
 
 void myFun(int x){
-    myClass obj(x);
+    myClass obj4(x);
 }
 
 int main(){
-    myClass obj(1),obj(2),obj(3);
+    myClass obj1(1),obj2(2),obj3(3);
     myFun(4);
     myFun(5);
     return 0;
